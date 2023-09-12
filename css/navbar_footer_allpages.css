@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+:root{
+    --background-color1: whitesmoke;
+    --backgroundcolor-navbar: rgba(255, 252, 250, 0.4);
+    --backgroundfilter-navbar: backdrop-filter: blur(22.5px);
+    --projectpallete-richblack: #031926;
+    --projectpallete-teal: #468189;
+    --projectpallete-cambridgeblue: #77ACA2;
+    --projectpallete-ashgray: #9DBEBB;
+    --projectpallete-parchment: #F4E9CD;
+}
+*{
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+html{
+    font-size: 18px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    border: 1px solid white;
+    align-content: center;
+    justify-content: space-between;
+    z-index: 1;
+    background-color: rgba(255, 252, 250, 0.4);
+    backdrop-filter: blur(22.5px);
+    box-shadow: 0 0 5px 2px grey;
+}
+#navbar img{
+    margin: auto 0;
+    padding: 5px;
+    width: 200px;
+}
+#navbar ul{
+    width: auto;
+    height: auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 1%;
+    padding: 0;
+}
+#navbar li{
+    margin: 0;
+    padding: 0 10px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+#navbar li:hover{
+    background-color: var(--projectpallete-parchment);
+}
+#navbar a{
+    color: var(--projectpallete-richblack);
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer{
+    width: 100%;
+    background-color: var(--background-color1);
+    box-shadow: -5px 0 5px gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footer span{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.footer a{
+    margin: 0 auto;
+}
+.footer img{
+    width: 150px;
+    filter: grayscale();
+}
+.footer img:hover{
+    filter: none;
+}
+.footer > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer li{
+    display: inline;
+    margin: 0 5px;
+}
+#redes > li > a{
+    font-size: 1.5rem;
+    color: grey;
+}
+#redes > li > :hover{
+    font-size: 1.5rem;
+    color: var(--projectpallete-richblack);
+}
+.footer >ul> li > a{
+    font-size: 1rem;
+    color: grey;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer >ul> li > a:hover{
+    color: var(--projectpallete-richblack);
+}
+.footer p{
+    color: grey;
+}

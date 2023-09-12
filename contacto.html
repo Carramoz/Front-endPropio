@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/navbar_footer_allpages.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <nav id="navbar">
+
+    </nav>
+    <main>
+        <h1>Contactanos, estamos a un click de distancia...</h1>
+        <form action="">
+            <label for="name">Nombre:</label>
+            <span><input id="name" type="text" name="name"><i id="nameIconChecked" class="bi bi-check-circle-fill display-none"></i><i id="nameIconFailed" class="bi bi-exclamation-circle-fill display-none"></i></span>
+            <label for="email">Email:</label>
+            <span><input id="email" type="email" name="email" required><i id="emailIconChecked" class="bi bi-check-circle-fill display-none"></i><i id="emailIconFailed" class="bi bi-exclamation-circle-fill display-none"></i></span>
+            <label for="telephone">Telefono (opcional):</label>
+            <span><input id="telephone" type="tel"><i id="telIconChecked" class="bi bi-check-circle-fill display-none"></i><i id="telIconFailed" class="bi bi-exclamation-circle-fill display-none"></i></span>
+            <label for="message">Mensaje:</label>
+            <span><textarea name="message" id="message" cols="30" rows="10"></textarea><i id="messageIconChecked" class="bi bi-check-circle-fill display-none"></i><i id="messageIconFailed" class="bi bi-exclamation-circle-fill display-none"></i></span>    
+            <div><button id="btnEnviar" class="prompt-buttons">Enviar</button></div>
+        </form>
+    </main>
+    <footer id="footer" class="footer">
+
+    </footer>
+    <script src="./js/navbar_footer.js"></script>
+    <script src="./js/validations.js"></script>
+</body>
+</html>

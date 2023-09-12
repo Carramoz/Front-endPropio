@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Propio</title>
+</head>
+<body>
+    <nav id="navbar">
+        <a href="./index.html"><img src="./src/Propiologo.png" alt=""></a>
+        <ul>
+            <li><a href="./inmuebles.html">Inmuebles</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="">Inicia Sesion</a></li>
+            <li><a href="">Registrate</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <div id="landing-text">
+                <h1>Encuentra o publica tu inmueble ideal, para vender o rentar, con solo unos clicks.</h1>
+                <span id="landing-buttons">
+                    <button id="btn-encontrar" class="prompt-buttons">Encontrar</button>
+                    <button class="prompt-buttons" onclick="location.href='./inmuebles.html'">Publicar</button>
+                </span>
+            </div>
+        </section>
+        <section id="buy-rent" class="home-section">
+            <h2 class="section-title">Ya sea que busques comprar o rentar, somos tu solución.</h2>
+            <div class="container">
+                <img class="buy-rent-image" src="https://media.istockphoto.com/id/1324683275/es/foto/feliz-tiempo-en-familia.jpg?s=612x612&w=0&k=20&c=-TWxg6_UEBikT8KFrjEbsMoeMOeAf9-mdVXK5ONjK1U=" alt="">
+                <div class="benefits">
+                    <h3>Beneficios:</h3>
+                <ul>
+                    <li>Inmuebles verificados.</li>
+                    <li>Precios competitivos.</li>
+                    <li>Compra o renta con un par de clicks.</li>
+                    <li>Buena ubicación garantizada.</li>
+                </ul>
+                <button id="goto-products" class="prompt-buttons">Ver más</button>
+                </div>    
+            </div>
+        </section>
+        <section id="publish" class="home-section">
+            <h2 class="section-title">Si tienes un inmueble que cumple los estandares de calidad de Propio publica con nosotros y llega al público que buscas.</h2>
+            <div class="container">
+                <div class="benefits">
+                    <h3>Beneficios:</h3>
+                <ul>
+                    <li>Rápida exposición.</li>
+                    <li>Costo accesible.</li>
+                    <li>El 90% de nuestros usuarios vende antes de 6 meses.</li>
+                    <li>Seguridad en la venta.</li>
+                </ul>
+                <button id="goto-register" class="prompt-buttons">Publica</button>
+                </div>
+                <img  class="buy-rent-image" src="https://arriendo.com/wp-content/uploads/2022/07/carta-de-recomendacion-1400x788.jpg" alt="">
+            </div>
+        </section>
+        <section id="recommended">
+            <hr>
+            <h2>Recomendados</h2>
+            <div id="carousel">
+                <div class="card">
+                    <img src="https://images.adsttc.com/media/images/623c/4fa0/3e4b/3145/3000/001b/newsletter/_d_ambrosio_07._copy.jpg?1648119692" alt="">
+                    <h4>Casa habitación</h4>
+                    <h5>$2,000,000</h5>
+                    <h5>Toluca, Estado de México</h5>
+                    <p>Bonita casa ubicada en Toluca, México.</p>
+                    <span><h6>R</h6><h6>B</h6><h6>M</h6><h6>A</h6></span>
+                    <button>Ver más</button>
+                </div>
+                <div class="card">
+                    <img src="https://aceroscrea.com/wp-content/uploads/2023/01/vista-interior-de-una-nave-industrial-construida-con-perfiles-y-paneles.jpg" alt="">
+                    <h4>Nave industrial</h4>
+                    <h5>$10,000,000</h5>
+                    <h5>Queretaro, Queretaro</h5>
+                    <p>Espaciosa nave industrial multiusos.</p>
+                    <span><h6>R</h6><h6>B</h6><h6>M</h6><h6>A</h6></span>
+                    <button>Ver más</button>
+                </div>
+                <div class="card">
+                    <img src="https://irp.cdn-website.com/f540bda2/MOBILE/jpg/035.jpg" alt="">
+                    <h4>Salón de fiestas</h4>
+                    <h5>$100,000/evento</h5>
+                    <h5>Valle de Bravo, México.</h5>
+                    <p>Salón para eventos multiusos.</p>
+                    <span><h6>R</h6><h6>B</h6><h6>M</h6><h6>A</h6></span>
+                    <button>Ver más</button>
+                </div>
+                <div class="card">
+                    <img src="https://arqzon.com.mx/wp-content/uploads/2021/02/9-scaled.jpg" alt="">
+                    <h4>Casa habitación</h4>
+                    <h5>$30,000/mes</h5>
+                    <h5>Monterrey, Nvo. León</h5>
+                    <p>Casa para vivir con comfort.</p>
+                    <span><h6>R</h6><h6>B</h6><h6>M</h6><h6>A</h6></span>
+                    <button>Ver más</button>
+                </div>
+            </div>
+            <hr>
+        </section>
+        <section id="register">
+            <h2>Estoy listo para empezar...</h2>
+            <div id="comprar" class="info-container">
+                <h3>Quiero comprar:</h3>
+            <ol>
+                <li>Registrate.</li>
+                <li>Navega y elige tu inmueble ideal.</li>
+                <li>Agregalo al carrito.</li>
+                <li>Paga el aniticipo y agenda tu cita.</li>
+                <li>Continua con tu proceso de la mano de nuestro experto.</li>
+            </ol>
+            <button class="prompt-buttons">Comprar</button>
+            </div>
+            <div id="vender" class="info-container">
+                <h3>Quiero vender:</h3>
+            <ol>
+                <li>Registrate.</li>
+                <li>Registra los datos de tu inmueble en nuestro formulario.</li>
+                <li>¡Listo!</li>
+                <li>Cuando un potencial cliente se interese por tu propiedad te avisaremos.</li>
+                <li>Continua con tu proceso de la mano de nuestro experto.</li>
+            </ol>
+            <button id="btn-goto-vender" class="prompt-buttons">Vender</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <span><a href="./index.html"><img src="./src/Propiologo.png" alt=""></a><p>Todos los derechos reservados 2023 ©</p></span>
+        <ul>
+            <li><a href="">Inmuebles</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="">Inicia Sesion</a></li>
+            <li><a href="">Registrate</a></li>
+        </ul>
+        <ul id="redes">
+            <li><a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a></li>
+            <li><a href="https://twitter.com/?lang=es"><i class="bi bi-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a></li>
+            <li><a href="https://www.tiktok.com/es/"><i class="bi bi-tiktok"></i></a></li>
+        </ul>
+    </footer>
+    <script>
+        let btnGotoEncontrar = document.getElementById("btn-encontrar");
+        btnGotoEncontrar.addEventListener("click", event=>{
+            event.preventDefault()
+            location.href = "./inmuebles.html";
+        })
+    </script>
+</body>
+</html>
