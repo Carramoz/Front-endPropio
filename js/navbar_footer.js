@@ -6,7 +6,7 @@ navbar.insertAdjacentHTML("afterbegin", `<a href="./index.html"><img src="./src/
     <li><a href="./inmuebles.html">Inmuebles</a></li>
     <li><a href="./contacto.html">Contacto</a></li>
     <li><a href="">Inicia Sesion</a></li>
-    <li><a href="">Registrate</a></li>
+    <li><a href="./registro.html">Registrate</a></li>
 </ul>`);
 
 footer.insertAdjacentHTML("afterbegin", `<span><a href="./index.html"><img src="./src/Propiologo.png" alt=""></a><p>Todos los derechos reservados 2023 ©</p></span>
@@ -14,7 +14,7 @@ footer.insertAdjacentHTML("afterbegin", `<span><a href="./index.html"><img src="
     <li><a href="./inmuebles.html">Inmuebles</a></li>
     <li><a href="./contacto.html">Contacto</a></li>
     <li><a href="">Inicia Sesion</a></li>
-    <li><a href="">Registrate</a></li>
+    <li><a href="./registro.html">Registrate</a></li>
 </ul>
 <ul id="redes">
     <li><a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a></li>
