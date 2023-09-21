@@ -14,8 +14,8 @@
         <ul>
             <li><a href="./inmuebles.html">Inmuebles</a></li>
             <li><a href="./contacto.html">Contacto</a></li>
-            <li><a href="">Inicia Sesion</a></li>
-            <li><a href="">Registrate</a></li>
+            <li><a href="./login.html">Inicia Sesion</a></li>
+            <li><a href="./registro.html">Registrate</a></li>
         </ul>
     </nav>
     <main>
@@ -40,7 +40,7 @@
                     <li>Compra o renta con un par de clicks.</li>
                     <li>Buena ubicación garantizada.</li>
                 </ul>
-                <button id="goto-products" class="prompt-buttons">Ver más</button>
+                <button id="goto-products" class="prompt-buttons" onclick="location.href='./inmuebles.html'">Ver más</button>
                 </div>    
             </div>
         </section>
@@ -55,7 +55,7 @@
                     <li>El 90% de nuestros usuarios vende antes de 6 meses.</li>
                     <li>Seguridad en la venta.</li>
                 </ul>
-                <button id="goto-register" class="prompt-buttons">Publica</button>
+                <button id="goto-register" class="prompt-buttons" onclick="location.href='./registro.html'">Publica</button>
                 </div>
                 <img  class="buy-rent-image" src="https://arriendo.com/wp-content/uploads/2022/07/carta-de-recomendacion-1400x788.jpg" alt="">
             </div>
@@ -71,7 +71,7 @@
                     <h5>Toluca, Estado de México</h5>
                     <p>Bonita casa ubicada en Toluca, México.</p>
                     <span><h6>R</h6><h6>B</h6><h6>M</h6><h6>A</h6></span>
-                    <button>Ver más</button>
+                    <button onclick="location.href='./inmuebles.html'">Ver más</button>
                 </div>
                 <div class="card">
                     <img src="https://aceroscrea.com/wp-content/uploads/2023/01/vista-interior-de-una-nave-industrial-construida-con-perfiles-y-paneles.jpg" alt="">
@@ -80,7 +80,7 @@
                     <h5>Queretaro, Queretaro</h5>
                     <p>Espaciosa nave industrial multiusos.</p>
                     <span><h6>R</h6><h6>B</h6><h6>M</h6><h6>A</h6></span>
-                    <button>Ver más</button>
+                    <button onclick="location.href='./inmuebles.html'">Ver más</button>
                 </div>
                 <div class="card">
                     <img src="https://irp.cdn-website.com/f540bda2/MOBILE/jpg/035.jpg" alt="">
@@ -89,7 +89,7 @@
                     <h5>Valle de Bravo, México.</h5>
                     <p>Salón para eventos multiusos.</p>
                     <span><h6>R</h6><h6>B</h6><h6>M</h6><h6>A</h6></span>
-                    <button>Ver más</button>
+                    <button onclick="location.href='./inmuebles.html'">Ver más</button>
                 </div>
                 <div class="card">
                     <img src="https://arqzon.com.mx/wp-content/uploads/2021/02/9-scaled.jpg" alt="">
@@ -98,7 +98,8 @@
                     <h5>Monterrey, Nvo. León</h5>
                     <p>Casa para vivir con comfort.</p>
                     <span><h6>R</h6><h6>B</h6><h6>M</h6><h6>A</h6></span>
-                    <button>Ver más</button>
+                    <button onclick="location.href='./inmuebles.html'">Ver más</button>
+                    <button >Ver más</button>
                 </div>
             </div>
             <hr>
@@ -114,7 +115,7 @@
                 <li>Paga el aniticipo y agenda tu cita.</li>
                 <li>Continua con tu proceso de la mano de nuestro experto.</li>
             </ol>
-            <button class="prompt-buttons">Comprar</button>
+            <button class="prompt-buttons" onclick="location.href='./registro.html'">Comprar</button>
             </div>
             <div id="vender" class="info-container">
                 <h3>Quiero vender:</h3>
@@ -125,17 +126,17 @@
                 <li>Cuando un potencial cliente se interese por tu propiedad te avisaremos.</li>
                 <li>Continua con tu proceso de la mano de nuestro experto.</li>
             </ol>
-            <button id="btn-goto-vender" class="prompt-buttons">Vender</button>
+            <button id="btn-goto-vender" class="prompt-buttons" onclick="location.href='./registro.html'">Vender</button>
             </div>
         </section>
     </main>
     <footer class="footer">
         <span><a href="./index.html"><img src="./src/Propiologo.png" alt=""></a><p>Todos los derechos reservados 2023 ©</p></span>
         <ul>
-            <li><a href="">Inmuebles</a></li>
+            <li><a href="./inmuebles.html">Inmuebles</a></li>
             <li><a href="./contacto.html">Contacto</a></li>
-            <li><a href="">Inicia Sesion</a></li>
-            <li><a href="">Registrate</a></li>
+            <li><a href="./login.html">Inicia Sesion</a></li>
+            <li><a href="./registro.html">Registrate</a></li>
         </ul>
         <ul id="redes">
             <li><a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a></li>
@@ -146,12 +147,5 @@
             <li><a href="https://www.tiktok.com/es/"><i class="bi bi-tiktok"></i></a></li>
         </ul>
     </footer>
-    <script>
-        let btnGotoEncontrar = document.getElementById("btn-encontrar");
-        btnGotoEncontrar.addEventListener("click", event=>{
-            event.preventDefault()
-            location.href = "./inmuebles.html";
-        })
-    </script>
 </body>
 </html>

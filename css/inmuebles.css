@@ -32,7 +32,7 @@ main{
     padding: 1px;
     text-align: center;
 }
-#products{
+.products{
     width: 100%;
     position: relative;
     grid-column: 2/-1;
@@ -145,4 +145,7 @@ h5{
 }
 h4{
     font-size: 1.2rem;
+}
+.display-none{
+    display: none;
 }

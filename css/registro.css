@@ -53,12 +53,12 @@ form span{
     display: flex;
     width: 100%;
 }
-input{
+input:not(#termsandconditions){
     margin-bottom: 20px;
     width: 95%;
     height: 25px;
 }
-input:focus{
+input:focus:not(#termsandconditions){
     outline-color: var(--projectpallete-teal);
     box-shadow: 0 0 3px 2px var(--projectpallete-cambridgeblue);
 }
@@ -132,4 +132,19 @@ form div{
     justify-content: space-around;
     width: 50%;
     height: 50%;
+}
+#checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 20px;
+    width: 95%;
+    height: 25px;
+}
+#password-requierements{
+    width: 95%;
+    margin-top: -15px;
+    padding: 0;
+    font-size: 0.9rem;
+    color: var(--projectpallete-teal);
 }

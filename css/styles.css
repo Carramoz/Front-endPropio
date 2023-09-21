@@ -122,6 +122,7 @@ main{
 }
 .prompt-buttons:hover{
     background: linear-gradient(90deg, var(--projectpallete-teal), var(--projectpallete-richblack));
+    cursor: pointer
 }
 .prompt-buttons:active{
     background: var(--projectpallete-richblack);

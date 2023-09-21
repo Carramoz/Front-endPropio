@@ -15,21 +15,23 @@
     <main>
         <h1>Registrate</h1>
         <form action="">
-            <label for="email">Nombre de usuario:</label>
+            <label for="username">Nombre de usuario:</label>
             <span><input id="username" type="text" name="username" required><i id="usernameIconChecked" class="bi bi-check-circle-fill display-none"></i><i id="usernameIconFailed" class="bi bi-exclamation-circle-fill display-none"></i></span>
             <label for="email">Email:</label>
             <span><input id="email" type="email" name="email" required><i id="emailIconChecked" class="bi bi-check-circle-fill display-none"></i><i id="emailIconFailed" class="bi bi-exclamation-circle-fill display-none"></i></span>
-            <label for="telephone">Contrasena:</label>
-            <span><input id="password" type="password"><i id="passwordChecked" class="bi bi-check-circle-fill display-none"></i><i id="passwordFailed" class="bi bi-exclamation-circle-fill display-none"></i></span>
-            <label for="telephone">Repita la contrasena:</label>
-            <span><input id="password" type="password"><i id="passwordChecked" class="bi bi-check-circle-fill display-none"></i><i id="passwordFailed" class="bi bi-exclamation-circle-fill display-none"></i></span>
-            <div><button id="btnEnviar" class="prompt-buttons">Enviar</button></div>
+            <label for="password">Contrasena:</label>
+            <span><input id="password" type="password" name="password" required><i id="passwordChecked" class="bi bi-check-circle-fill display-none"></i><i id="passwordFailed" class="bi bi-exclamation-circle-fill display-none"></i></span>
+            <p id="password-requierements">La contrasena debe tener mínimo ocho caracteres, al menos una letra mayúscula, una letra minúscula, un número y un carácter especial.</p>
+            <label for="password-two">Confirme la contrasena:</label>
+            <span><input id="password-two" type="password" required><i id="passwordTwoChecked" class="bi bi-check-circle-fill display-none"></i><i id="passwordTwoFailed" class="bi bi-exclamation-circle-fill display-none"></i></span>
+            <span id="checkbox"><input id="termsandconditions" type="checkbox" name="termsandconditions" required><label for="termsandconditions">Acepto terminos y condiciones.</label></span>
+            <div><button id="btnEnviar" class="prompt-buttons">Registrarse</button></div>
         </form>
     </main>
     <footer id="footer" class="footer">
 
     </footer>
     <script src="./js/navbar_footer.js"></script>
-    <script src="./js/validations.js"></script>
+    <script src="./js/register_form_validations.js"></script>
 </body>
 </html>

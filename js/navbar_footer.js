@@ -5,7 +5,7 @@ navbar.insertAdjacentHTML("afterbegin", `<a href="./index.html"><img src="./src/
 <ul>
     <li><a href="./inmuebles.html">Inmuebles</a></li>
     <li><a href="./contacto.html">Contacto</a></li>
-    <li><a href="">Inicia Sesion</a></li>
+    <li><a href="./login.html">Inicia Sesion</a></li>
     <li><a href="./registro.html">Registrate</a></li>
 </ul>`);
 
@@ -13,7 +13,7 @@ footer.insertAdjacentHTML("afterbegin", `<span><a href="./index.html"><img src="
 <ul>
     <li><a href="./inmuebles.html">Inmuebles</a></li>
     <li><a href="./contacto.html">Contacto</a></li>
-    <li><a href="">Inicia Sesion</a></li>
+    <li><a href="./login.html">Inicia Sesion</a></li>
     <li><a href="./registro.html">Registrate</a></li>
 </ul>
 <ul id="redes">
